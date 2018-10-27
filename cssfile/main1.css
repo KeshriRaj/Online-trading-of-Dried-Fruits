@@ -1,0 +1,57 @@
+body
+{
+	font-family: roboto;
+}
+footer
+{
+	margin-top:50px;
+	background: #ECD491;
+	width: 100%;
+	height:215px;
+	color: green;
+	text-align: center;
+	border-radius: 10px;
+}
+pre#footer-text
+{
+	font-size: 15px;
+	line-height: 13;
+	top: 100px;
+	font-weight: bolder;
+}
+nav
+{
+	background:#ECD491;
+	width: 100%;
+	height:50;
+	padding-top: 15px;
+	border-radius: 10px;
+}
+a
+{
+
+	left: 500px;
+	color: green;
+	font-size: 20px;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+a.active
+{
+	color: lime;
+}
+a:hover{
+	color: blue;
+}
+fieldset.field
+{
+	background-color: #ECD491;
+}
+.cont
+{
+	background-image: url("https://natarajankdotcom.files.wordpress.com/2012/08/astatueoflordganeshamadeofdryfruits.jpg");
+    background-size: 400px 380px;
+    background-repeat: no-repeat;
+    background-position:100px; 
+    background-color: #F1F6F9;
+}

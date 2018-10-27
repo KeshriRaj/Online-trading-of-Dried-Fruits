@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fit-bit</title>
+	<link rel="icon" href="C:\xampp\htdocs\IWP_Project\images\a2.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\IWP_Project\cssfile\main1.css">
+<style type="text/css">
+	body
+	{
+		background-image: url("log3.jpg");
+		height: 100%; 
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+</style>
+
+</head>
+<body>
+
+<form method="post" name="logform" action="log.php" onsubmit="return validatelog()">
+<fieldset style="height: 230px;width: 300px; margin-left: 9px;margin-right: 400px;margin-top:262px;margin-bottom:0px;border-radius: 15px;">
+<label style="font-size: 20px;font-weight: bolder;color:black;">Username</label>
+</br>
+<input  type="text" name="usernamef" placeholder="Username" required="required">
+</br>
+</br>
+<label style="font-size: 20px;font-weight: bolder;">Password</label>
+</br>
+<input type="password" name="passwordf" placeholder="password" required="required" title="Must contain at least one number and one uppercase and lower case letter and at least 8 or more">
+</br>
+</br>
+<label style="font-size: 20px;font-weight: bolder;color:black;">Secret Question Answer</label>
+</br>
+<input type="password" name="secretf" placeholder="secret answer">
+</br>
+</br>
+<label style="font-size: 20px;font-weight: bolder;color:black;">Enter OTP</label>
+</br>
+<input type="text" name="otpf">
+</br> 
+</br>
+<input type="submit" name="submitf" value="Submit" >
+</br>
+</fieldset>
+</form>
+</body>
+</html>
